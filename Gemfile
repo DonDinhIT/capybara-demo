@@ -39,6 +39,7 @@ group :development, :test do
   gem 'capybara-webkit'
   gem 'launchy'
   gem 'database_cleaner'
+  gem 'selenium-webdriver', '>= 2.26.0'
 end
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'

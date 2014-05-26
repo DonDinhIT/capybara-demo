@@ -9,7 +9,7 @@ describe "Restaurants" do
     end
 
     it "should have the New Restaurant link" do
-    should have_link "New Restaurant", :href => new_restaurant_path
-  end
+      should have_link "New Restaurant", :href => new_restaurant_path
+    end
   end
 end
